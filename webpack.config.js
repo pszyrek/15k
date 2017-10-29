@@ -12,7 +12,7 @@ var exctractPlugin = new ExtractTextPlugin({
 })
 
 var config = {
-    entry: APP_DIR + '/app/index.js',
+    entry: APP_DIR + '/index.js',
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js',
